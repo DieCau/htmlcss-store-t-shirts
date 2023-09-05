@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>T- Shirt Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html">
+        <img class="header__logo" src="img/logo.png" alt="logo" />
+      </a>
+    </header>
+    <nav class="navigation">
+      <a class="navigation__link" href="index.html">Sales</a>
+      <a class="navigation__link navigation__link--active" href="about-us.html"
+        >About Us</a
+      >
+    </nav>
+    <main class="container">
+      <h1>React JS</h1>
+
+      <div class="shirt">
+        <img src="img/3.jpg" alt="img product">
+        <div class="shirt__container">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, dolores recusandae sequi aspernatur neque dolore.</p>
+            <form class="form">
+                <select class="form__camp">
+                    <option disabled selected>-- Select Size --</option>
+                    <option>Small</option>
+                    <option>Medium</option>
+                    <option>Large</option>
+                </select>
+                <input class="form__camp" type="number" placeholder="Amount" min="1">
+                <input class="form__submit" type="submit" value="Add Cart">
+            </form>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__text">
+        &copy; 2023 - FrontStore T-Shirt - All rights reserved
+      </p>
+    </footer>
+  </body>
+</html>
